@@ -1,16 +1,15 @@
 ﻿@{
     ViewBag.Title = "Home";
 }
+
+<!-- Stylesheet -->
 <link rel="stylesheet" type="text/css" href="~/css/map.css" />
 
 <!-- Map -->
-<div class="Map">
-    <iframe class="MapPlace" width="1080" height="625" src="https://maps.google.com/maps?width=1080&amp;height=920&amp;hl=en&amp;q=Eindhoven%2C%20The%20netherlands+(GeoCaching)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-    <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"></div>
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d79608.997963577!2d5.494930535595716!3d51.42544604173988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snl!4v1569493101099!5m2!1sen!2snl" height="100%" width="100%" frameborder="0" style="border:0;" allowfullscreen="no" scrolling="no"></iframe>
 
 <!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
+<button id="myBtn">Example message</button>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -18,10 +17,10 @@
     <div class="modal-content">
         <div class="modal-header">
             <span class="close">&times;</span>
-            <h2>何</h2>
+            <h2>Message title</h2>
         </div>
         <div class="modal-body">
-            <a>Kore wa nanidesu ka?</a>
+            <a>This is an example message.</a>
         </div>
     </div>
 </div>
