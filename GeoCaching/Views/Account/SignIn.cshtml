@@ -3,14 +3,18 @@
     Layout = "";
 }
 
-<link rel="stylesheet" type="text/css" href="~/css/sign-in.css" />
-
-<div class="content">
-    <div class="form-panel">
-        <form method="post" asp-controller="user" asp-action="signin" class="">
-            <div class="username-textbox-div"><input type="text" placeholder="Username" class="username-textbox"/></div>
-            <div class="password-textbox-div"><input type="password" placeholder="Password" class="password-textbox"/></div>
-            <div class="submit-button-div"><button type="submit" class="submit-button">Sign in</button></div>
-        </form>
+<head>
+    <title>Sign in</title>
+    <link rel="stylesheet" type="text/css" href="~/css/sign-in.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="panel">
+            <form method="post" asp-controller="user" asp-action="signin">
+                <input type="text" placeholder="Username" class="username-textbox" />
+                <input type="password" placeholder="Password" class="password-textbox" />
+                <button type="submit" class="submit-button">Sign in</button>
+            </form>
+        </div>
     </div>
-</div>
+</body>

@@ -2,12 +2,12 @@
     background-color: #2878e4;
 }
 
-.content {
+.wrapper {
     padding-top: 15%;
     padding-left: 32%;
 }
 
-.form-panel {
+.panel {
     background-color: #efefef;
     max-width: 450px;
     padding-left: 50px;
@@ -37,28 +37,19 @@
     border-right: none;
     border-bottom: solid #000000 1px;
     padding: 3px 10px;
-    padding-top: 25px;
+    margin-top: 20px;
     width: 400px;
 }
 
 .submit-button {
+    font-size: 20px;
     text-align: center;
+    color: white;
     width: 400px;
     border-radius: 25px;
     background-color: #2878e4;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 20px;
-    border: #2878e4;
-    color: white;
-}
-
-.submit-button-div {
-    padding-top: 30px;
-}
-
-.username-textbox-div {
-}
-
-.password-text-div {
+    margin-top: 20px;
+    border: none;
 }
