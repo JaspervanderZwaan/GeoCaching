@@ -7,23 +7,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>RunescapeWiki</title>
+    <title>GeoCaching Map</title>
 </head>
 
 <body>
 
-    <ul>
-        <h1 class="Menu">
-            <li><a class="active" asp-controller="account" asp-action="account">Account</a></li>
-            <li><a @Html.ActionLink("Stats", "Stats", "Stats")</a></li>
-            <li><a @Html.ActionLink("Monster", "Monster", "Monster")</a></li>
-            <li><a @Html.ActionLink("List", "List", "List")</a></li>
-        </h1>
-    </ul>
-
-    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
-        <h1>Account</h1>
-
+    <div class="Map">
+        <iframe class="MapPlace" width="1080" height="625" src="https://maps.google.com/maps?width=1080&amp;height=920&amp;hl=en&amp;q=Eindhoven%2C%20The%20netherlands+(GeoCaching)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"></div>
     </div>
+
+
 </body>
 </html>
