@@ -1,0 +1,61 @@
+﻿body {
+    background-color: #2878e4;
+    font-size: 30px;
+}
+
+.usernametextbox {
+    font-size: 20px;
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #000000 1px;
+    padding: 3px 10px;
+    width: 500px;
+}
+
+.passwordtextbox {
+    font-size: 20px;
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #000000 1px;
+    padding: 3px 10px;
+    padding-top: 25px;
+    max-width: 500px;
+    width: 500px;
+}
+
+.submit-button {
+    text-align: center;
+    width: 500px;
+    border-radius: 25px;
+    background-color: #2878e4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border: #2878e4;
+}
+
+.submit-button-div {
+    padding-top: 30px;
+}
+
+.content {
+    padding-top: 15%;
+    padding-left: 30%;
+}
+
+.formpanel {
+    background-color: #efefef;
+    max-width: 550px;
+    padding-left: 50px;
+    border-radius: 25px;
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
