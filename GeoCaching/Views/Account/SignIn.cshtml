@@ -1,13 +1,15 @@
 ﻿@{
     ViewData["Title"] = "SignIn";
+    Layout = "";
 }
 
 <link rel="stylesheet" type="text/css" href="~/css/sign-in.css" />
+
 <div class="content">
-    <div class="formpanel">
+    <div class="form-panel">
         <form method="post" asp-controller="user" asp-action="signin" class="">
-            <div><input type="text" id="username" name="username" placeholder="Username" class="usernametextbox" /></div>
-            <div><input type="password" id="password" name="password" placeholder="Password" class="passwordtextbox" /></div>
+            <div class="username-textbox-div"><input type="text" placeholder="Username" class="username-textbox"/></div>
+            <div class="password-textbox-div"><input type="password" placeholder="Password" class="password-textbox"/></div>
             <div class="submit-button-div"><button type="submit" class="submit-button">Sign in</button></div>
         </form>
     </div>
