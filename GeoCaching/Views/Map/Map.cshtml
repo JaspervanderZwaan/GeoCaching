@@ -1,21 +1,30 @@
 ﻿@{
     ViewBag.Title = "Home";
 }
+<link rel="stylesheet" type="text/css" href="~/css/map.css" />
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>GeoCaching Map</title>
-</head>
+<!-- Map -->
+<div class="Map">
+    <iframe class="MapPlace" width="1080" height="625" src="https://maps.google.com/maps?width=1080&amp;height=920&amp;hl=en&amp;q=Eindhoven%2C%20The%20netherlands+(GeoCaching)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"></div>
+</div>
 
-<body>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
 
-    <div class="Map">
-        <iframe class="MapPlace" width="1080" height="625" src="https://maps.google.com/maps?width=1080&amp;height=920&amp;hl=en&amp;q=Eindhoven%2C%20The%20netherlands+(GeoCaching)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"></div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>何</h2>
+        </div>
+        <div class="modal-body">
+            <a>Kore wa nanidesu ka?</a>
+        </div>
     </div>
+</div>
 
-
-</body>
-</html>
+<!-- Model script-->
+<script src="~/js/modalpopup.js"></script>
